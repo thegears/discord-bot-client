@@ -1,0 +1,48 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-c37171d9.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/[guild]/[channel].vue",
+      "pages/[guild]/index.vue",
+      "pages/index.vue"
+    ],
+    "css": [
+      "entry.3c8c00e0.css"
+    ]
+  },
+  "pages/[guild]/[channel].vue": {
+    "file": "_channel_-06c1fc91.mjs",
+    "src": "pages/[guild]/[channel].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_UsersBar-06757891.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_UsersBar-06757891.mjs": {
+    "file": "UsersBar-06757891.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/[guild]/index.vue": {
+    "file": "index-4d6641aa.mjs",
+    "src": "pages/[guild]/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_UsersBar-06757891.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-82c68a99.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_UsersBar-06757891.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  }
+}
